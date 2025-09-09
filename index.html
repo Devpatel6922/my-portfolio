@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header id="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="image/myphoto.jpg.jpg" alt="Dev Photo">
+                <h1>Dev</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Hello, I'm Dev</h2>
+                <p>Aspiring Designer & Developer</p>
+                <div class="buttons">
+                    <a href="#contact" class="btn primary">Hire Me</a>
+                    <a href="resume.pdf.pdf" class="btn secondary" download>Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="image/myphoto.jpg.jpg" alt="Dev">
+                </div>
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>I am a passionate designer and developer with a keen interest in creating beautiful and
+                        functional websites. I love turning ideas into reality through code and design.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-drafting-compass"></i>
+                    <h3>Reacts</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-paint-brush"></i>
+                    <h3>Bootstrap</h3>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 70%;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>High School</h3>
+                        <p>Woodrow Senior Secondary School, 2020-21</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Intermediate</h3>
+                        <p>Woodrow Senior Secondary School,2022-23</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Bachelor's of Computer Applications</h3>
+                        <p>MJPRU University,2023-26</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 1">
+                    <h3>Portfolio Website</h3>
+                    <p>A responsive portfolio website built with HTML, CSS, and JS.</p>
+                    <a href="#" class="btn">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="image/project 2.png" alt="Project 2">
+                    <h3>Image Search Engine</h3>
+                    <p>The most comprehensive image search on the web.</p>
+                    <a href="https://cozy-lokum-05da8e.netlify.app/" class="btn">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="image/project 3.png" alt="QR code generator interface with a centered input box and button on a purple gradient background, text reads QR Code Generator, overall tone is modern and inviting">
+                    <h3>Qr Code Generator</h3>
+                    <p>Enter a URL or your desired content into a free online generator.</p>
+                    <a href="https://helpful-smakager-e65355.netlify.app/" class="btn">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+            <div class="contact-details">
+                <h3>Get in Touch</h3>
+                <p><strong>Email:</strong> devp32218@gmail.com</p>
+                <p><strong>Mobile:</strong> +91-7579971368</p>
+            </div>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Dev Patel. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
